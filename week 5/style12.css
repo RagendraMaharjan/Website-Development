@@ -1,0 +1,113 @@
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Unbounded', cursive;*/
+/*Set the box-sizing for all elements to border-box */
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding:0;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.splitBlock{
+    display: flex;
+}
+
+.left-col{
+    width: 100%;
+    background-color: rgb(12, 59, 46);
+    padding: 5%;
+    color:#ffffff;
+}
+
+h1{
+    font-size: 50px;
+    line-height:1.1;
+    margin-bottom: 30px;
+    font-family: "Unbounded", cursive;
+
+    
+}
+
+h2{
+    margin-bottom:100px;
+    font-weight: 200;
+}
+
+
+
+.right-col{
+    width: 50%;
+}
+ .flex-item img{
+    width:100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:   center;
+}
+
+.button {
+    margin-top: 20px;
+  }
+  
+  .button a {
+    display: inline-block;
+    padding: 10px 50px;
+    background: orange;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 800;
+    transition: all 0.5s ease;
+  }
+  
+  .button a:hover {
+    background: black;
+    color: orange;
+  }
+  
+  /*
+  Responsive Web Design.
+  -----------------------
+  1024   - tablet
+  768    - phone
+  420    - phone portrait
+  
+  */
+  
+  @media screen and (max-width: 1024px) {
+    .button a {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .content-wrapper {
+      padding-bottom: 50px;
+    }
+  
+
+.left-col, .right-col{
+    width:100%
+}
+
+.flex-item img{
+    height: 550px;
+}
+
+
+
+  }
+
+  @media screen and (max-width:420px){
+    .button a{
+        text-align: center;
+    }
+  }
+  /* */
+
