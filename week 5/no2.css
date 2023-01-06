@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.New img{
+    height: 715PX;
+}
+.text,img{
+    background-color:   #243b55;
+    height: 715px;
+    width: 50%;
+    float: right;
+}
+.text{
+    text-align: left;
+    
+}
+h1{
+    font-weight: bold;
+    font-size: 500%;
+    padding-top: 50px;
+    padding-left: 50px;
+    
+}
+h2{
+    font-style: italic;
+    font-size: 200%;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+h3{
+    font-style: italic;
+    font-size:200% ;
+    padding-left: 50px;
+    padding-top: 3px;
+}
+h4,h5{
+    font-style:italic;
+    font-size:200% ;
+    padding-left: 50px;
+}
+button{
+    padding: 20px;
+    background-color:bisque;
+    font-size: 15px;
+    margin: 40px;
+    
+}
